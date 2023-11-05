@@ -161,6 +161,10 @@ register(
     max_episode_steps=200,
 )
 
+register(
+    id="RaceTracksEnv-v0",
+    entry_point="gymnasium.envs.toy_text.racetracks:RaceTracksEnv",
+)
 
 # Tabular
 # ----------------------------------------
